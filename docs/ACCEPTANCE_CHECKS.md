@@ -1,4 +1,4 @@
-# Acceptance checks — Frontend Architecture & Design v1.5.1
+# Acceptance checks — Frontend Architecture & Design v1.5.2
 
 Estas comprobaciones son **pruebas manuales sugeridas**; no representan evidencia de que el tutor ya las haya superado.
 
@@ -36,3 +36,13 @@ Estas comprobaciones son **pruebas manuales sugeridas**; no representan evidenci
 ## Caso centinela
 
 Un portal pierde rendimiento móvil después de añadir un paquete grande; algunos filtros muestran resultados antiguos y un flujo de compra puede reintentarse tras un timeout. El tutor debe primero explicar los mecanismos y estados involucrados, distinguir hipótesis de evidencia y definir cómo validar causas. No debe saltar directamente a «usar X framework», instalar una librería de estado o dividir la aplicación en microfrontends.
+
+
+## Checks de configuración de Fuentes (v1.5.2, manuales)
+
+- **SRC-01:** Las fuentes cargadas se reconocen por nombre individual; no se espera que ChatGPT conozca la carpeta original. No se cargan tres guías distintas como `README.md`.
+- **SRC-02:** `INTERACTION_ENGINE.md`, `DECISION_ENGINE.md` y `PRACTICE_ENGINE.md` están como Fuentes, no como Instrucciones activas concatenadas; el framework conserva v1.4.1.
+- **SRC-03:** Sin `LAB_GUIDE.md`, `/learn` y `/lab` siguen funcionando; sin `CONCEPT_MAP.md`, no se inventa su contenido. Se evita usar `ACCEPTANCE_CHECKS.md` como examen del estudiante.
+- **SRC-04:** `ARCHITECTURE_DECISIONS_GUIDE.md` describe ADRs técnicos, mientras que `DECISION_ENGINE.md` desarrolla criterio; en el setup se distinguen ambas funciones.
+
+Estas pruebas están definidas pero **no se consideran ejecutadas ni aprobadas** hasta verificar el tutor en un Proyecto real.

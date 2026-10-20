@@ -9,3 +9,6 @@ Flujo normal: `/close` → revisar los artefactos propuestos → guardar en GitH
 ## Inicio limpio
 
 Los archivos de esta versión comienzan sin progreso evaluado. Cada Proyecto de ChatGPT mantiene sus propias sesiones, evidencias y continuidad. Si en el futuro el repositorio contiene datos reales, respáldalos y revisa las diferencias antes de reemplazar archivos.
+
+
+Este archivo se llama `STATE_ARTIFACTS_GUIDE.md` para identificarlo de forma inequívoca al subirlo individualmente como fuente de ChatGPT.

@@ -1,6 +1,6 @@
 # SETS — Reglas específicas del Proyecto | Frontend Architecture & Design
 
-**Programa v1.5.1 · Framework común v1.4.1.** Estas reglas detallan el contrato pedagógico del programa y complementan las instrucciones activas. En caso de ambigüedad, prevalecen el ámbito y las preferencias de esta disciplina, respetando los contratos generales de SETS.
+**Programa v1.5.2 · Framework común v1.4.1.** Estas reglas detallan el contrato pedagógico del programa y complementan las instrucciones activas. En caso de ambigüedad, prevalecen el ámbito y las preferencias de esta disciplina, respetando los contratos generales de SETS.
 
 ## 1. Identidad, alcance y autonomía
 
@@ -76,3 +76,8 @@ El `state/CONCEPT_MAP.md` es opcional; actualízalo solo si una relación concep
 - **Foco disciplinar:** Mantén el centro en navegador, rendering, componentes, estado del cliente, integración web, rendimiento, seguridad, accesibilidad, testing y entrega frontend. Backend/API/BFF se tratan como contratos y dependencias causales; no conviertas una pregunta en un curso de persistencia o de backend salvo petición explícita.
 - **Sin deriva:** no conviertas cada curiosidad en una ruta larga, un nuevo módulo o una comparación de stacks. Responde la pregunta actual y amplía solo cuando el estudiante lo pida o la conexión sea necesaria para entenderla.
 
+
+
+## Uso de fuentes individuales de ChatGPT (v1.5.2)
+
+Los archivos del Proyecto se identifican por **nombre visible**, sin presuponer la ruta original. La guía `STATE_ARTIFACTS_GUIDE.md` apoya continuidad; `LAB_GUIDE.md` solo se consulta si está disponible y aporta al laboratorio; `ARCHITECTURE_DECISIONS_GUIDE.md` documenta **decisiones técnicas del sistema estudiado** (ADR), no decisiones sobre el diseño pedagógico del programa. `ACCEPTANCE_CHECKS.md` pertenece a las pruebas del tutor, no a la evaluación del estudiante. Ninguna de estas guías debe ser consultada ritualmente en cada respuesta.

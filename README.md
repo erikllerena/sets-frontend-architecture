@@ -1,6 +1,6 @@
 # SETS | Frontend Architecture & Design
 
-**Programa v1.5.1 · SETS Framework v1.4.1**
+**Programa v1.5.2 · SETS Framework v1.4.1**
 
 ## Misión
 
@@ -44,3 +44,8 @@ El currículo y el casebook son mapas abiertos, no límites exhaustivos. Las tec
 5. Al terminar una sesión, usa `/close`, revisa los artefactos propuestos y guarda los cambios manualmente.
 
 No existe sincronización automática GitHub ↔ ChatGPT. No subas secretos, datos sensibles ni código propietario del trabajo.
+
+
+## Archivos del Proyecto de ChatGPT
+
+Las fuentes se suben **como archivos sueltos**: consulta `SETUP_CHATGPT.md` para distinguir esenciales, recomendadas y bajo demanda. Las guías en `state/`, `labs/` y `decisions/` tienen nombres inequívocos (`STATE_ARTIFACTS_GUIDE.md`, `LAB_GUIDE.md` y `ARCHITECTURE_DECISIONS_GUIDE.md`); los `README.md` raíz quedan en GitHub. El mapa conceptual es recomendado, no obligatorio; los laboratorios y las pruebas del tutor no son fuentes permanentes requeridas.

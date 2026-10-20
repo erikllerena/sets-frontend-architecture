@@ -1,73 +1,75 @@
-# Instalación — SETS | Frontend Architecture & Design
+# Instalación en ChatGPT — SETS | Frontend Architecture & Design v1.5.2
 
-## 1. Crea el repositorio y el Proyecto
+Este programa utiliza **SETS Framework v1.4.1** sin modificaciones. Los archivos de GitHub se organizan en carpetas, pero **las Fuentes de un Proyecto de ChatGPT se cargan como archivos individuales**; una vez cargados, no dependas de que se conserve su ruta de origen. Por eso cada fuente propuesta tiene un nombre visible inequívoco.
 
-- Repositorio GitHub sugerido: **`sets-frontend-architecture`**.
-- Proyecto de ChatGPT sugerido: **SETS | Frontend Architecture & Design**.
-- Si la opción está disponible, utiliza memoria solo del Proyecto para mantener aislado el progreso académico.
+**No es necesario subir todo el repositorio.** Separamos documentos esenciales, recomendados y bajo demanda para no saturar el Proyecto ni transformar la enseñanza en un ritual.
 
-Este paquete contiene el repositorio completo para una instalación nueva; no necesitas un repositorio frontend anterior ni archivos de otra especialidad.
+## 1. Proyecto e instrucciones activas
 
-## 2. Instrucciones activas
+1. Crea o abre el Proyecto **SETS | Frontend Architecture & Design**. Si la opción existe, usa memoria solo del Proyecto.
+2. Pega **únicamente el contenido de `CHATGPT_PROJECT_INSTRUCTIONS.md` de este programa** en las Instrucciones del Proyecto. Reemplaza las versiones anteriores; no acumules textos ni motores como instrucciones activas.
+3. Sube los archivos de las secciones siguientes **como Fuentes**, no como instrucciones. El archivo `CHATGPT_PROJECT_INSTRUCTIONS.md` no necesita cargarse de nuevo como fuente.
 
-En las instrucciones del Proyecto pega **solo** el contenido de `CHATGPT_PROJECT_INSTRUCTIONS.md`. No concatenes varios documentos extensos: las fuentes adicionales se cargan por separado.
+## 2. Fuentes esenciales — programa `sets-frontend-architecture`
 
-## 3. Fuentes del framework SETS v1.4.1
+| Archivo visible en ChatGPT | Origen en GitHub | Propósito |
+|---|---|---|
+| `PROJECT_CONFIG.yaml` | `PROJECT_CONFIG.yaml` | Identidad, límites y preferencias. |
+| `PROJECT_RULES.md` | `PROJECT_RULES.md` | Reglas especializadas, autonomía y frontera disciplinar. |
+| `CURRICULUM.md` | `learning/CURRICULUM.md` | Mapa abierto de competencias, no temario cerrado. |
+| `CASEBOOK.md` | `learning/CASEBOOK.md` | Casos ilustrativos, no obligatorios ni exclusivos. |
+| `REFERENCES.md` | `learning/REFERENCES.md` | Referencias para contrastar y profundizar. |
+| `LEARNING_STATE.md` | `state/LEARNING_STATE.md` | Estado real de aprendizaje (no importar progreso de otros SETS). |
+| `EVIDENCE_LOG.md` | `state/EVIDENCE_LOG.md` | Evidencias verificables y acumulativas. |
+| `STATE_ARTIFACTS_GUIDE.md` | `state/STATE_ARTIFACTS_GUIDE.md` | Convenciones de continuidad y de los archivos de estado. |
 
-Desde el repositorio `sets-framework`, carga como fuentes esenciales:
-- `core/PROJECT_INSTRUCTIONS.md`
-- `core/CONCEPTUAL_ENGINE.md`
-- `core/INTERACTION_ENGINE.md`
-- `core/DECISION_ENGINE.md`
-- `core/PRACTICE_ENGINE.md`
-- `core/ASSESSMENT_ENGINE.md`
-- `core/SESSION_HANDOFF.md`
-- `templates/LAST_HANDOFF.template.md`
+**Recomendada desde el inicio, no obligatoria:** `state/CONCEPT_MAP.md`, visible como **`CONCEPT_MAP.md`**, para identificar relaciones conceptuales justificadas. No reemplaza el currículo ni acredita dominio. El tutor puede continuar si no se carga; no debe fingir haberla leído.
 
-Fuentes recomendadas según disponibilidad: `docs/REFERENCE_POLICY.md`, `docs/LEARNING_SCIENCE.md`, `docs/COMMAND_REFERENCE.md` y `templates/ADR_TEMPLATE.md`.
+## 3. Fuentes esenciales — SETS Framework v1.4.1
 
-**Importante:** usa los archivos de `sets-framework` v1.4.1, no una copia antigua v1.3.x. La referencia a `CONCEPTUAL_ENGINE.md` es necesaria para la profundidad conceptual de este programa.
+Carga los siguientes archivos desde **`sets-framework`**, no desde una copia independiente de otro programa:
 
-## 4. Fuentes de este repositorio
+| Archivo visible | Ruta de origen en el framework | Función |
+|---|---|---|
+| `PROJECT_INSTRUCTIONS.md` | `core/PROJECT_INSTRUCTIONS.md` | Contrato pedagógico común de referencia. |
+| `CONCEPTUAL_ENGINE.md` | `core/CONCEPTUAL_ENGINE.md` | Comprensión, causalidad, mecanismos y límites. |
+| `INTERACTION_ENGINE.md` | `core/INTERACTION_ENGINE.md` | Diálogo y adaptación. |
+| `DECISION_ENGINE.md` | `core/DECISION_ENGINE.md` | Comparación razonada, criterios y trade-offs. |
+| `PRACTICE_ENGINE.md` | `core/PRACTICE_ENGINE.md` | Práctica y transferencia incluso sin laboratorios preparados. |
+| `ASSESSMENT_ENGINE.md` | `core/ASSESSMENT_ENGINE.md` | Evaluación apoyada en evidencia, sin progreso ficticio. |
+| `SESSION_HANDOFF.md` | `core/SESSION_HANDOFF.md` | Cierre y continuidad. |
+| `LAST_HANDOFF.template.md` | `templates/LAST_HANDOFF.template.md` | Formato para el handoff real. |
 
-Carga:
-- `PROJECT_CONFIG.yaml`
-- `PROJECT_RULES.md`
-- `learning/CURRICULUM.md`
-- `learning/CASEBOOK.md`
-- `learning/INTERVIEW_SPRINT.md`
-- `learning/REFERENCES.md`
-- `state/LEARNING_STATE.md`
-- `state/EVIDENCE_LOG.md`
-- Opcional: `state/CONCEPT_MAP.md`
+**Recomendadas según uso:** `docs/REFERENCE_POLICY.md`, `docs/LEARNING_SCIENCE.md`, `docs/COMMAND_REFERENCE.md`, `docs/QUALITY_CHECKS.md`, `templates/CONCEPT_MAP.template.md` y `templates/ADR_TEMPLATE.md`. No es preciso cargar todas permanentemente.
 
-`state/LAST_HANDOFF.md` no se adjunta antes del primer `/close` real porque todavía no existe una sesión que documentar.
+## 4. Archivos bajo demanda: entrevista, labs, decisions y docs
 
-## 5. Primer uso
+| Archivo visible | Ruta de origen | Cuándo cargarlo |
+|---|---|---|
+| `INTERVIEW_SPRINT.md` | `learning/INTERVIEW_SPRINT.md` | Solo cuando actives `/interview` o `/sprint`. No implica preparar entrevista por defecto. |
+| `LAB_GUIDE.md` | `labs/LAB_GUIDE.md` | Si vas a archivar un laboratorio o necesitas sus convenciones. **No es obligatorio para `/lab`.** |
+| `ARCHITECTURE_DECISIONS_GUIDE.md` | `decisions/ARCHITECTURE_DECISIONS_GUIDE.md` | Al producir ADRs **técnicos** sobre arquitectura del sistema. Distinto de `DECISION_ENGINE.md`. |
+| `ACCEPTANCE_CHECKS.md` | `docs/ACCEPTANCE_CHECKS.md` | Al **validar el comportamiento del tutor**; no para evaluar al alumno en clases ordinarias. |
+| `UPGRADE_1.5.2.md` | `docs/UPGRADE_1.5.2.md` | Solo durante la migración de versiones. |
 
-- `/start`: diagnóstico breve, una pregunta por turno; después se inicia enseñanza conceptual.
-- `/learn <tema>`: lección conceptual adaptada a tu pregunta y nivel demostrado.
-- `/deep <tema>`: mecanismos internos, límites y casos de fallo.
-- `/design <sistema>` o `/decision <problema>`: comparar opciones con restricciones explícitas.
-- `/lab <tema>`: práctica implementable cuando tú la pidas; también puedes elegir análisis sin código.
-- `/close`: genera handoff, estado completo y delta de evidencias para que los revises.
-- `/resume`: retoma solo desde el estado verificable de este programa.
+Este programa **no contiene un banco `practice/` específico**; no inventes archivos ni dependencias: la práctica optativa se realiza mediante `PRACTICE_ENGINE.md`, el currículo y casos pertinentes o nuevos. El `README.md` raíz y el `CHANGELOG.md` son documentación del repositorio: no tienen que ser Fuentes del Proyecto.
 
-## 6. GitHub ↔ ChatGPT
+## 5. Uso inicial y continuidad
 
-La sincronización es manual salvo que una integración real confirme una escritura. Tras `/close`, revisa los tres artefactos, guárdalos en GitHub y actualiza las fuentes del Proyecto. No reemplaces el registro acumulativo de evidencias con un archivo vacío.
+- `/start`: diagnóstico breve, una pregunta por turno; después comienza la enseñanza conceptual.
+- `/learn <tema>` y `/deep <tema>`: explica fundamentos, mecanismos, alternativas y límites con profundidad adaptativa; no impongas tecnología, rutas rígidas o práctica inmediata.
+- `/lab <tema>`: propón una práctica pertinente si el usuario la pide; `LAB_GUIDE.md` es optativa. No inventes experimentos ejecutados.
+- `/interview` o `/sprint`: activa el modo correspondiente a petición del usuario.
+- `/close`: entrega `LAST_HANDOFF.md` completo, `LEARNING_STATE.md` actualizado e información nueva para añadir a `EVIDENCE_LOG.md`. No inventes evidencia y revisa antes de guardar.
+- `/resume`: retoma únicamente desde el estado verificable de este Proyecto. `LAST_HANDOFF.md` no existe antes de un primer cierre real.
 
-## 7. Verificación rápida
+**Prueba rápida sugerida:** Pregúntale cómo analizar una caída de performance o una condición de carrera en estado del cliente. Debe distinguir hipótesis, mecanismos, evidencia y opciones. También confirma que el tutor no confunde las guías de ADR con `DECISION_ENGINE.md`, no necesita `LAB_GUIDE.md` para enseñar/practicar y no afirma haber leído una fuente ausente.
 
-Pregunta al Proyecto:
-1. «¿Cuál es el ámbito de este programa?»
-2. «¿Cómo decides cuándo usar React, Angular u otra tecnología?»
-3. «¿Cuándo propones un laboratorio?»
-4. «¿Qué archivos deben generarse al usar `/close`?»
+## 6. Comprobación de nombres y sincronización
 
-Las respuestas deben concordar con `PROJECT_RULES.md` y `docs/ACCEPTANCE_CHECKS.md`. Estas comprobaciones son manuales sugeridas; el paquete no afirma que ya se hayan ejecutado.
+1. Al subir Fuentes, verifica los **nombres individuales**: no uses tres archivos distintos llamados `README.md` esperando que ChatGPT deduzca sus carpetas. Las antiguas rutas `state/README.md`, `labs/README.md` y `decisions/README.md` fueron **renombradas**; elimina las fuentes antiguas si estaban cargadas.
+2. No debe haber dos archivos con el mismo nombre visible. Los archivos de este programa se cargan en **su propio Proyecto**, no se mezclan con los de otras especialidades.
+3. No añadas carpetas ni ZIP como sustitutos de esta selección. La ruta en la tabla es **para encontrar el archivo en GitHub o en tu computadora**, no una ruta garantizada dentro de ChatGPT.
+4. Tras actualizar GitHub, **actualiza manualmente las fuentes del Proyecto**; no hay sincronización automática por defecto. Conserva respaldos si ya tienes progreso, evidencias o handoffs reales: no los sobrescribas con plantillas vacías.
 
-
-## Currículo y casos abiertos (v1.5.1)
-
-Las fuentes de esta versión declaran el currículo y el casebook como mapas no exhaustivos. Al actualizar el Proyecto de ChatGPT, reemplaza las instrucciones activas y las fuentes antiguas por las de este paquete y por SETS Framework v1.4.1. Las pruebas de `docs/ACCEPTANCE_CHECKS.md` son manuales y quedan pendientes hasta ejecutarlas.
+**Framework común**: se reutiliza `sets-framework` v1.4.1. No se ha creado ni modificado un framework por especialidad.

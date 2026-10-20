@@ -6,7 +6,7 @@ framework:
   project_domain: Frontend Architecture & Design
   objective_role: Frontend Architect / Frontend Platform Engineer
 program:
-  version: 1.5.1
+  version: 1.5.2
   repository: sets-frontend-architecture
   competency_namespace: F
   scope: >-
